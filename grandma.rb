@@ -18,7 +18,6 @@ def speak_to_grandma(say)
     puts "HUH?! SPEAK UP, SONNY!"
   elsif say.uppercase
     puts "NO, NOT SINCE 1938!"
-    elsif condition
-      say == "I LOVE YOU GRANDMA!"
+    elsif say == "I LOVE YOU GRANDMA!"
       puts "I LOVE YOU TOO PUMPKIN!"
 end
